@@ -36,6 +36,7 @@ def get_caps_single(caps_path, username, access_key):
     single_caps_common.update(single_caps_env)
     single_caps_common['browserstack.user'] = username
     single_caps_common['browserstack.key'] = access_key
+    single_caps_common["build"] = os.environ["BROWSERSTACK_BUILD_NAME"]
 
     return single_caps_common
 
