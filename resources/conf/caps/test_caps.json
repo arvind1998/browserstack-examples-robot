@@ -6,7 +6,7 @@
       "parallel": {
         "common_caps": {
           "project": "browserstack-examples-robot",
-          "build": "BROWSERSTACK_BUILD_NAME",
+          "build": "$BROWSERSTACK_BUILD_NAME",
           "name": "Parallel Test",
           "browserstack.debug": "true",
           "browserstack.networkLogs": "true",
@@ -54,7 +54,7 @@
       "single": {
         "common_caps": {
           "project": "browserstack-examples-robot",
-          "build": "BROWSERSTACK_BUILD_NAME",
+          "build": "$BROWSERSTACK_BUILD_NAME",
           "name": "Single Test",
           "chromeOptions": {
             "w3c" : "false"
@@ -74,7 +74,7 @@
         "application_endpoint": "http://localhost:3000",
         "common_caps": {
           "project": "browserstack-examples-robot",
-          "build": "BROWSERSTACK_BUILD_NAME",
+          "build": "$BROWSERSTACK_BUILD_NAME",
           "name": "Local Test",
           "browserstack.debug": "true",
           "browserstack.networkLogs": "true",
@@ -93,7 +93,7 @@
       "mobile": {
         "common_caps": {
           "project": "browserstack-examples-robot",
-          "build": "BROWSERSTACK_BUILD_NAME",
+          "build": "$BROWSERSTACK_BUILD_NAME",
           "name": "Mobile Parallel Test"
         },
         "env_caps": [
