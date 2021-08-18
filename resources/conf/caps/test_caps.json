@@ -65,7 +65,8 @@
           {
             "os": "Windows",
             "os_version": "10",
-            "browser": "Chrome"
+            "browser": "Chrome",
+            "build" : "BROWSERSTACK_BUILD_NAME"
           }
         ]
       },
