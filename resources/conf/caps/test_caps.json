@@ -6,7 +6,6 @@
       "parallel": {
         "common_caps": {
           "project": "browserstack-examples-robot",
-          "build": "$BROWSERSTACK_BUILD_NAME",
           "name": "Parallel Test",
           "browserstack.debug": "true",
           "browserstack.networkLogs": "true",
