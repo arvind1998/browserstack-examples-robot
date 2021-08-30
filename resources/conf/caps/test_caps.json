@@ -9,14 +9,16 @@
           "name": "Parallel Test",
           "browserstack.debug": "true",
           "browserstack.networkLogs": "true",
-          "browserstack.console": "verbose"
+          "browserstack.console": "verbose",
+          "build": "$BROWSERSTACK_BUILD_NAME"
         },
         "env_caps": [
           {
             "os": "Windows",
             "os_version": "10",
             "browser": "Internet Explorer",
-            "browser_version": "11.0"
+            "browser_version": "11.0",
+            
           },
           {
             "os": "Windows",
